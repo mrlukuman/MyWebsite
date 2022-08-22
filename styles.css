@@ -3,10 +3,21 @@
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
 body {
   background: url(pexels-joshua-welch-1624600.jpg);
   background-size: 100em;
   background-repeat: no-repeat;
+}
+
+.navigation {
+  display: grid;
+}
+.list-item a {
+  display: flex;
 }
 
 .logo {
