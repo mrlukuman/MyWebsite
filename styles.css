@@ -9,14 +9,25 @@ a {
   font-weight: bold;
   font-size: 1.5em;
 }
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0em 0em 3em;
+}
 body {
   background: url(pexels-joshua-welch-1624600.jpg);
   background-size: 100em;
   background-repeat: no-repeat;
 }
+.list-item {
+  margin: 0em 0em 0em 1em;
+}
 
 .navigation {
-  display: grid;
+  display: flex;
+  justify-content: space-evenly;
 }
 .list-item a {
   display: flex;
