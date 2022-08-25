@@ -50,3 +50,32 @@ body {
   font-weight: bolder;
   margin: 1em 0em 0em 3em;
 }
+
+.contact{
+  height: 10em;
+  width: 10em;
+  background-color: aliceblue;
+  color: green;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.contact-list {
+  margin-top: 10px;
+}
+
+.contact-list a{
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+.fa {
+  text-decoration: none;
+}
+
+.contact-list-item{
+  margin-left: 7px;
+}
