@@ -84,3 +84,8 @@ body {
   opacity: 0.5;
   font-weight: bold;
 }
+
+.list-item:hover{
+  opacity: 0.5;
+  padding-top: 2px;
+}
