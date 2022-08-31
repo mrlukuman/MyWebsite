@@ -83,9 +83,11 @@ body {
 .fa:hover {
   opacity: 0.5;
   font-weight: bold;
+  transition: opacity 300ms ease-in-out;
 }
 
 .list-item:hover{
   opacity: 0.5;
   padding-top: 2px;
+  transition: opacity 200ms ease-in-out;
 }
